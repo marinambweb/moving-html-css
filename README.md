@@ -1,2 +1,2 @@
 # moving-html-css
- Material ensinando efeito de movimento com css
+ Material Mb Web Tutoriais - Efeito de movimento, usando imagens e CSS
