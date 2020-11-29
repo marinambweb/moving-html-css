@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url(lua.jpg) center;
+    background-size: cover;
+}
+
+.nuvens {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(cloud.png);
+    background-size: cover;
+
+    animation: nuvem 60s linear infinite;
+}
+
+@keyframes nuvem {
+    0% {
+        background-position: 0px;
+    }
+    100% {
+        background-position: -5440px;
+    }
+}
